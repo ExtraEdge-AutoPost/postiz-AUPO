@@ -95,7 +95,7 @@ pnpm run dev
 
 Access the application at: http://localhost:4200
 
-## White-Labeling Guide
+## Modifying the Code for Autopost Branding (White-Labeling Guide)
 
 ### 1. Logo Replacement
 
