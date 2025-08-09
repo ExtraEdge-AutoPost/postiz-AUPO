@@ -18,6 +18,12 @@ const nextConfig = {
       config.devtool = isServer ? 'source-map' : 'hidden-source-map';
     }
     
+    // Configure SVG handling
+    config.module.rules.push({
+      test: /\.svg$/,
+      use: ['@svgr/webpack'],
+    });
+    
     return config;
   },
   
